@@ -13,6 +13,9 @@ public class SoccerPlayer {
     private String firstName; // first name
     private String lastName; // last name
     private int uniformNum; // uniform number
+
+
+
     private int goalsScored; // goals scored
     private int assists; // assists
     private int shots; // shots
@@ -107,4 +110,37 @@ public class SoccerPlayer {
     public void bumpRedCards() {
         redCards++;
     }
+
+    public int getGoalsScored() {
+        return goalsScored;
+    }
+
+    public void setGoalsScored(int goalsScored) {
+        this.goalsScored = goalsScored;
+    }
+
+    public void setAssists(int assists) {
+        this.assists = assists;
+    }
+
+    public void setShots(int shots) {
+        this.shots = shots;
+    }
+
+    public void setFouls(int fouls) {
+        this.fouls = fouls;
+    }
+
+    public void setSaves(int saves) {
+        this.saves = saves;
+    }
+
+    public void setYellowCards(int yellowCards) {
+        this.yellowCards = yellowCards;
+    }
+
+    public void setRedCards(int redCards) {
+        this.redCards = redCards;
+    }
+
 }
