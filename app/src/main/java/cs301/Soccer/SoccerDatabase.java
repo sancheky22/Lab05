@@ -227,7 +227,7 @@ public class SoccerDatabase implements SoccerDB {
 
 
 
-        
+
 
         return -1;
     }
